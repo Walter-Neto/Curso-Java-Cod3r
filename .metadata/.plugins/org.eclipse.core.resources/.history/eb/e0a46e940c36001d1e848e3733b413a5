@@ -1,0 +1,15 @@
+package Fundamentos;
+
+public class ConversaoTipoPrimitivoNumerico {
+	
+	public static void main(String[] args) {
+		
+		double a = 1; // Conversão implícita
+		System.out.println(a);
+		
+		float b = (float) 2;
+		System.out.println(b);
+		
+	}
+
+}

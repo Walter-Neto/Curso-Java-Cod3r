@@ -1,0 +1,20 @@
+package Fundamentos;
+
+public class ConversaoTipoPrimitivoNumerico {
+
+	public static void main(String[] args) {
+
+		double a = 1; // Conversão implícita
+		System.out.println(a);
+
+		float b = (float) 2.12345678888888; // Conversão explícita por CAST. Note que o número trunca em 2.1234567 pois
+											// é o limite do tamanho do float.
+		System.out.println(b);
+		
+		int c = 340;
+		byte d = (byte) c; // Conversão explícita por CAST.
+		System.out.println(d);
+
+	}
+
+}

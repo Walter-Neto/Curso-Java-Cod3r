@@ -1,0 +1,42 @@
+package Fundamentos;
+
+public class TipoString {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Olá Pessoal.".charAt(5));
+		
+		String s = "Walter";
+		System.out.println(s.concat("!!!"));
+		System.out.println();
+		
+		System.out.println(s + "???");
+		System.out.println();
+		
+		System.out.println(s.startsWith("Wal"));
+		System.out.println();
+		
+		System.out.println(s.toLowerCase().startsWith("wal"));
+		System.out.println();
+		
+		System.out.println(s.length());
+		System.out.println();
+		
+		System.out.println(s.equals("walter"));
+		System.out.println();
+		
+		System.out.println(s.equalsIgnoreCase("WaLtEr"));
+		
+		
+		System.out.println();
+		
+		var nome = "Maria";
+		var sobrenome = "Eduarda";
+		var idade = 27;
+		var salario = 12345.987;
+		System.out.println("Nome: " + nome + "\nSobrenome: " + sobrenome + "\nIdade: " + idade + "\nSalario: " + salario);
+		
+		
+	}
+
+}

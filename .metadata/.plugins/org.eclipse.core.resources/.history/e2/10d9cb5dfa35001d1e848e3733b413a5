@@ -1,0 +1,25 @@
+package Fundamentos;
+
+import java.util.Date;
+
+public class Import {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Tanto o String quanto o System.out.println estão inclusos dentro do pacote
+		 * java.lang, desse modo não precisamos deixar explícito conforme exemplos
+		 * abaixo.
+		 */
+		java.lang.String b = "Boa tarde.";
+		java.lang.System.out.println(b);
+		
+		String s = "Bom dia!";
+		System.out.println(s);
+		
+		Date d = new Date();
+		System.out.println(d);
+		
+	}
+
+}
