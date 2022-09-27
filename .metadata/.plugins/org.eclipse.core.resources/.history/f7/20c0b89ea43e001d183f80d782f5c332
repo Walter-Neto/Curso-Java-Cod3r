@@ -1,0 +1,22 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class DesafioDoWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		double nota = 0.0;
+		double totalDeNotas = 0.0;
+		int i = 0;
+		double media =  totalDeNotas / i;
+		
+
+		
+		entrada.close();
+			
+	}
+
+}

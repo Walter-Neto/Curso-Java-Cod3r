@@ -1,0 +1,32 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class DesafioDoWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		double nota = 0.0;
+		double totalDeNotas = 0.0;
+		int i = 0;
+		double media =  totalDeNotas / i;
+		
+		do {
+			System.out.println("Digite a nota: ");
+			if (nota >= 0 && nota <= 10) {
+				nota = entrada.nextDouble();
+				totalDeNotas += nota;
+				i++;				
+			}
+		} while(nota != -1);
+		
+		System.out.println(media);
+
+		
+		entrada.close();
+			
+	}
+
+}
