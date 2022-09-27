@@ -1,0 +1,42 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * A proposta do desafio é pedir que o usuário digite um dia da semana e
+		 * terá que retornar no console o dia correspondente à aquele dia da semana
+		 * utilizando a estrutura If Else If.
+		 * 
+		 * Domingo 1
+		 * Segunda 2
+		 * Terça 3
+		 * Quarta 4
+		 * Quinta 5
+		 * Sexta 6
+		 * Sábado 7
+		 */
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o dia da semana: ");
+		String dia = entrada.next();
+//		String dia = entrada.next().toLowerCase();
+		
+		if (dia.equalsIgnoreCase("domingo")) {
+			System.out.println(1);
+		}
+		
+		
+//		if (dia == "domingo") {
+//			System.out.println(1);
+//		}
+		
+		
+		entrada.close();
+	}
+
+}
