@@ -1,0 +1,14 @@
+package Classe;
+
+public class AreaCircProd {
+	
+	public static void main(String[] args) {
+		
+		AreaCirc a = new AreaCirc(100);
+		System.out.println(a.area());
+		
+		
+		
+	}
+
+}
