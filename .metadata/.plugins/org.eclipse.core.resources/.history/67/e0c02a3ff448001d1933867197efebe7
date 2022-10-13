@@ -1,0 +1,8 @@
+package Classe;
+
+public class Pessoa {
+	
+	String nomeDaPessoa;
+	double pesoDaPessoa;
+
+}

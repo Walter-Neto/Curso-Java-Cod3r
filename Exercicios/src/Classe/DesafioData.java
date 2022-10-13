@@ -10,11 +10,11 @@ public class DesafioData {
 		return String.format("%d/%d/%d", dia, mes, ano);
 	}
 	
-	DesafioData(int diaInformado, int mesInformado,
-			int anoInformado){
-		dia = diaInformado;
-		mes = mesInformado;
-		ano = anoInformado;
+	DesafioData(int dia, int mesd,
+			int ano){
+		this.dia = dia;
+		this.mes = mesd;
+		this.ano = ano;
 		}
 	
 	DesafioData(){

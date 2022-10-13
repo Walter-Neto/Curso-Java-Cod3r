@@ -1,0 +1,9 @@
+package Classe.Desafio;
+
+public class Jantar {
+	
+	void comer() {
+		
+	}
+
+}
