@@ -1,0 +1,24 @@
+package Colecoes;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapa {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1 , "Walter");
+		usuarios.put(20, "Rosinha");
+		usuarios.put(3, "Greg");
+		usuarios.put(4, "lupi");
+		
+		System.out.println("usuarios.size() - " + 
+		usuarios.size());
+		System.out.println("usuarios.isEmpty() - " +
+		usuarios.isEmpty());
+		
+	}
+
+}
