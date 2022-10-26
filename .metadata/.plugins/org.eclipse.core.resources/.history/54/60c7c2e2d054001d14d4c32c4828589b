@@ -1,0 +1,18 @@
+package oo.composicao;
+
+import java.sql.Array;
+import java.util.Arrays;
+
+public class CompraProd {
+	
+	public static void main(String[] args) {
+		
+		Compra c1 = new Compra();
+		c1.cliente = "Walter";
+		c1.itens.add(new Item("Café", 1, 10.05));
+		
+		System.out.println(Arrays.toString(c1.itens));
+		
+	}
+
+}
