@@ -1,0 +1,23 @@
+package oo.composicao;
+
+public class CursoProd {
+	
+	
+	public static void main(String[] args) {
+		
+		Aluno aluno1 = new Aluno("Rosinha");
+		Aluno aluno2 = new Aluno("Morty");
+		Aluno aluno3 = new Aluno("Lupi");
+		
+		System.out.println(aluno1);
+		
+		Curso curso1 = new Curso("Java");
+		Curso curso2 = new Curso("Git e Github");
+		Curso curso3 = new Curso("AWS");
+		
+		
+		
+		
+	}
+
+}

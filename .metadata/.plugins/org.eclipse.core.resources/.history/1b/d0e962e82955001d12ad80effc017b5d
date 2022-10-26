@@ -1,0 +1,18 @@
+package oo.composicao;
+
+public class CursoProd {
+	
+	
+	public static void main(String[] args) {
+		
+		Aluno aluno1 = new Aluno();
+		
+		aluno1.nomeDoAluno = "Walter";
+		aluno1.adicionarCurso(new Curso("Java"));
+		
+		System.out.println(aluno1);
+		
+		
+	}
+
+}
