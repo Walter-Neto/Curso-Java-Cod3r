@@ -1,0 +1,15 @@
+package oo.composicao.desafio;
+
+public class Producao {
+	
+	public static void main(String[] args) {
+		
+		Cliente cliente1 = new Cliente();
+		cliente1.nome = "Walter";
+		
+		Produto produto1 = new Produto("Caneta", 2, 4.3);
+		cliente1.compra1.add(new Item(produtos.add(produto1)));
+		
+	}
+
+}
