@@ -1,0 +1,12 @@
+package oo.composicao.heranca;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+		Civic civic = new Civic();
+		
+		System.out.println("Civic => " + civic.velocidadeAtual);
+	}
+
+}

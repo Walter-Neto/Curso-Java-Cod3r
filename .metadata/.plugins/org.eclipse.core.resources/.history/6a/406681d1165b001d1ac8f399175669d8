@@ -1,0 +1,9 @@
+package oo.heranca;
+
+public class Ferrari extends Carro {
+	
+	void acelerar() {
+		this.velocidadeAtual += 15;
+	}
+
+}

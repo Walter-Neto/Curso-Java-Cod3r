@@ -24,7 +24,10 @@
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.Aluno"/>
     <fullyQualifiedTypeName name="oo.composicao.Curso"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Item"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
 </qualifiedTypeNameHistroy>

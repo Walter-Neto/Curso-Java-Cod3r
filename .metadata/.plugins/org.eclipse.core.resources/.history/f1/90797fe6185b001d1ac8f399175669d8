@@ -1,0 +1,11 @@
+package oo.heranca.desafio;
+
+public class Ferrari extends Carro {
+	
+	final String nome = "Ferrari";
+	
+	void acelerar() {
+		this.velocidadeAtual += 15;
+	}
+
+}

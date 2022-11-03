@@ -1,0 +1,23 @@
+package oo.heranca.desafio;
+
+public class Carro {
+	
+	private final String nome = "";
+	int velocidadeAtual;
+
+	void acelerar() {
+		velocidadeAtual += 5;
+	}
+
+	void frear() {
+		if (velocidadeAtual >= 5) {
+			velocidadeAtual -= 5;
+		}else {
+			velocidadeAtual = 0;
+		}
+	}
+	
+	public String toString(){
+		return String.format("%s - Velocidade atual = %dkm/h.", nome, velocidadeAtual)  ;
+	}
+}
