@@ -19,7 +19,7 @@ public class Teste {
 		
 		civic.frear();
 		civic.frear();
-		System.out.println("[Civic] " + civic.toString());	
+		System.out.println("[Civic] " + civic.toString());		
 
 		System.out.println("-----------------------------");
 		
@@ -32,7 +32,8 @@ public class Teste {
 		ferrari.frear();
 		ferrari.frear();
 		System.out.println("[Ferrari] " + ferrari.toString());
-				
+		
+		
 	}
 
 }

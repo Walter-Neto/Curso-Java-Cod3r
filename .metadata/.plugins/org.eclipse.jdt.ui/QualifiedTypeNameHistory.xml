@@ -26,8 +26,11 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="oo.composicao.Aluno"/>
     <fullyQualifiedTypeName name="oo.composicao.Curso"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Compra"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Item"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
+    <fullyQualifiedTypeName name="oo.composicao.heranca.Civic"/>
+    <fullyQualifiedTypeName name="oo.composicao.heranca.Ferrari"/>
 </qualifiedTypeNameHistroy>
