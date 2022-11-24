@@ -1,0 +1,20 @@
+package oo.lambdas;
+
+public class Desafio {
+	
+	
+	public static void main(String[] args) {
+		
+		Produto p = new Produto("Ipad", 3535.89, 0.13);
+		
+		System.out.println("precoComDesconto = " + p.precoComDesconto);
+		System.out.println("impostoDoGoverno = " + p.impostoDoGoverno);
+		System.out.println("precoComImposto = " + p.precoComImposto);
+		
+		System.out.println(p.desconto);
+		System.out.println(p.impostoDoGoverno);
+		System.out.println(p.isCaro);System.out.println(p.precoComDesconto);
+	}
+
+
+}

@@ -1,8 +1,0 @@
-package oo.encapsulamento;
-
-class Pessoa {
-	
-	protected String nome;
-	private int idade;
-
-}

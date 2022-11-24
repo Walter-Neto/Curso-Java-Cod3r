@@ -1,0 +1,29 @@
+package oo.lambdas;
+
+import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
+
+public class Desafio {
+	
+	
+	public static void main(String[] args) {
+		
+		Produto p = new Produto("Ipad", 3535.89, 0.13);
+		
+		boolean isExpensev = p.preco * (1 - p.desconto) >= 2500 ? true: false;
+		double priceWithDiscount = p.preco * (1 - p.desconto);
+		double govermentFee = priceWithDiscount * (1 - 8.5);
+		
+			
+		
+		
+		System.out.println(priceWithDiscount);
+		System.out.println(govermentFee);
+		
+//		double priceWithTaxes = isExpensev ? 
+//		
+//		BiFunction<Double, Double, Double> precoTarifado =
+//				p, t ->  
+	}
+
+}

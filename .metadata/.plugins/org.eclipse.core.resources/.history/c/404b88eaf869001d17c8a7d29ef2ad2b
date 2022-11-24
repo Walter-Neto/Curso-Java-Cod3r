@@ -1,0 +1,30 @@
+package oo.lambdas;
+
+public class Produto {
+	
+	final String nome;
+	double preco;
+	double desconto;
+	boolean isCaro = preco * (1 - desconto) >= 2500 ? true: false;
+	double precoComDesconto = preco * (1 - desconto);
+	double impostoDoGoverno = isCaro ? precoComDesconto - (precoComDesconto * (1 - 0.085)) : 0.0;
+	double precoComImposto = precoComDesconto + impostoDoGoverno;
+	
+	
+	
+	
+	public Produto(String nome, double preco, double desconto) {
+		super();
+		this.nome = nome;
+		this.preco = preco;
+		this.desconto = desconto;
+	}
+	
+	public String toString() {
+		double precoComDesconto = (preco * (1 - desconto));
+		return String.format("%s custa R$ %.2f ", nome, precoComDesconto);
+	}
+	
+	
+
+}
